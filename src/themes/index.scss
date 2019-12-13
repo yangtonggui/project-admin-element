@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: 'PingFang Regular';
+  src: url('assets/fonts/pingfang/PingFang\ Regular.ttf');
+}
+
+@font-face {
+  font-family: 'PingFang Medium';
+  src: url('assets/fonts/pingfang/PingFang\ Medium.ttf');
+}
+.el-form-item__label {
+  font-size: 18px;
+  height: 25px;
+}
+
+.el-input:hover{
+  border-color: #ccc;
+}
+
+// .el-input:focus{
+//   border-color: #ccc;
+//   box-shadow: 0 0 0 2px rgba(149, 160, 172, 0.2);
+// }
+// .el-table {
+//   thead{
+//     font-size: 18px;
+//     color: #000;
+//     th{
+//       text-align: center;
+//     }
+//   }
+//   .el-table__row{
+//      height: 69px;
+//   }
+// }
+// .ivu-select-selection-focused, .ivu-select-selection:hover{
+//   border-color: #ccc;
+// }
+
+// .ivu-select-visible .ivu-select-selection{
+//   border-color: #ccc;
+//   box-shadow: 0 0 0 2px rgba(149, 160, 172, 0.2);
+// }
+.btns{
+  text-align: center;
+  margin: 30px 0;
+}  
+  .btn{
+    height: 48px;
+    width: 144px;
+    font-size: 18px;
+ 
+}
+
+.list{
+  .el-table{
+    .el-table__header{ 
+      thead{
+        font-weight: bold;
+        font-size: 18px;
+        height: 60px;
+        color: #000;
+        th{
+          text-align: center;
+        }
+      }
+    }
+    .el-table__body{
+      font-size: 18px;
+    }
+    td{
+      text-align: center;
+      padding: 3px 0px !important;
+    }
+    .cell{
+      white-space: nowrap;
+    }
+  }
+  svg{
+    cursor: pointer;
+    width: 25px !important;
+    height: 25px !important;
+    margin: 13px 15px;
+  }
+  .page {
+    margin-top: 20px;
+    text-align: center;
+    .ivu-page-item-active{
+      background-color: #1261ff;
+      color: #fff;
+    }
+  }
+}
+
+  .el-radio-group {
+    width: 200px;
+    margin-top: -15px;
+    margin-left: 25px;
+    .el-radio__inner{
+      display: none;
+    }
+    .el-radio__label{
+      font-size: 20px;
+      display: block;
+      padding: 10px;
+      color:  rgba(255, 86, 34, 1);
+    }
+    .el-radio__input.is-checked+.el-radio__label {
+      font-size: 18px;
+      color: #fff;
+      background-color: rgba(105, 198, 56, 1);
+    }
+}
+.el-form-item__error{
+  width: 350px;
+}
+.el-input__inner:focus {
+  border-color: #ccc;
+  outline: 0;
+}
+
+/* .el-radio-group-item {
+  width: 54px;
+  height: 40px;
+  margin-right: 28px;
+  color: rgba(255, 86, 34, 1);
+}
+.el-radio {
+  width: 54px;
+  height: 40px;
+  opacity: 0;
+  margin-right: -48px;
+}
+.el-radio-group-button .el-radio-wrapper-checked .el-radio-focus {
+  background: rgba(105, 198, 56, 1);
+  color: #fff;
+}
+.el-radio-group-button .el-radio-wrapper-checked {
+  border-color: #2b85e4;
+  color: #fff;
+  background-color: rgba(105, 198, 56, 1);
+} */
+
